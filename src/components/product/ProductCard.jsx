@@ -54,7 +54,7 @@ function ProductCard({ product, className = '' }) {
           <div className="relative aspect-square w-full overflow-hidden rounded-xl border border-border bg-surface transition-shadow duration-200 group-hover:shadow-md">
             {hasImage ? (
               <img
-                src={images[0]}
+                src={process.env.PUBLIC_URL + images[0]}
                 alt={name}
                 loading="lazy"
                 className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.04]"
