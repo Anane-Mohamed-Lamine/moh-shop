@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/moh-shop/static/css/main.9f12efd0.css",
+    "main.js": "/moh-shop/static/js/main.2d32d49a.js",
+    "index.html": "/moh-shop/index.html",
+    "main.9f12efd0.css.map": "/moh-shop/static/css/main.9f12efd0.css.map",
+    "main.2d32d49a.js.map": "/moh-shop/static/js/main.2d32d49a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f12efd0.css",
+    "static/js/main.2d32d49a.js"
+  ]
+}
