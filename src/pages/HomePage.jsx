@@ -77,7 +77,7 @@ function HomePage() {
 
             <div className="aspect-square overflow-hidden rounded-2xl border border-border bg-background shadow-sm">
               <img
-                src="/images/urban-runner-black.jpg"
+                src={process.env.PUBLIC_URL +"/images/urban-runner-black.jpg"}
                 alt="Urban Runner sneaker"
                 className="h-full w-full object-cover"
               />
@@ -99,7 +99,7 @@ function HomePage() {
               >
                 <div className="aspect-[4/3] overflow-hidden rounded-lg bg-surface">
                   <img
-                    src={category.image}
+                    src={process.env.PUBLIC_URL +category.image}
                     alt={category.name}
                     className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
                   />
